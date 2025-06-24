@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input,
+        select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <form>
+            <label for="name">Họ tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="gender">Giới tính:</label>
+            <select id="gender" name="gender">
+          <option value="">-- Chọn --</option>
+          <option value="nam">Nam</option>
+          <option value="nu">Nữ</option>
+        </select>
+
+            <button type="submit">Gửi</button>
+        </form>
+    </body>
+
+</html>
