@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f9f9f9;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .audio-card {
+            display: grid;
+            grid-template-rows: auto auto;
+            gap: 15px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .audio-card h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        
+        audio {
+            width: 100%;
+            outline: none;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <div class="audio-card">
+            <h3>Bài nhạc yêu thích: Relaxing Chill</h3>
+            <audio controls>
+          <source src="music.mp3" type="audio/mp3">
+          Trình duyệt của bạn không hỗ trợ phát âm thanh.
+        </audio>
+        </div>
+
+    </body>
+
+</html>
