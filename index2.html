@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    
+    .subjects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 cột */
+        gap: 15px;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+    
+    .subjects div {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 15px;
+        text-align: center;
+        border-radius: 8px;
+    }
+</style>
+</head>
+
+<body>
+    <h2>Danh sách các môn học yêu thích</h2>
+
+    <div class="subjects">
+        <div>Toán</div>
+        <div>Lý</div>
+        <div>Hóa</div>
+        <div>Văn</div>
+        <div>Tiếng Anh</div>
+
+    </div>
+</body>
+
+</html>
